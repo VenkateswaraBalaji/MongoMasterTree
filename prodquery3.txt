@@ -1,0 +1,2 @@
+Find the product price which are not between 200 to 400
+=  db.products.find({product_price:{ $lt:200,$gt:400  }})

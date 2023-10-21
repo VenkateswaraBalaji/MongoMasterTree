@@ -1,0 +1,4 @@
+ind products which contain product color blue  and product price 392.00
+	 =  db.products.find({ product_color: "blue", product_price: 392})
+
+     
